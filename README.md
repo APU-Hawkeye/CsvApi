@@ -10,8 +10,8 @@ simple application of importing cvs file into database and created an api endpoi
 run - php artisan serve
 
 ## Test in Postman
-http://127.0.0.1:8000/api/countries
-http://127.0.0.1:8000/api/currencies
+http://127.0.0.1:8000/api/countries ---
+http://127.0.0.1:8000/api/currencies ---
 get all the list without authentication
 
 ### Premium Partners
