@@ -11,9 +11,11 @@ run - php artisan serve
 ## Test in Postman
 http://127.0.0.1:8000/api/countries <br>
 http://127.0.0.1:8000/api/currencies <br>
+search by name example
+http://127.0.0.1:8000/api/country/Antarctica <br>
+http://127.0.0.1:8000/api/country/In <br>
 get all the list without authentication
 
-### Premium Partners
 
 
 
