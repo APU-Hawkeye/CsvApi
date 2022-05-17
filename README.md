@@ -14,6 +14,7 @@ http://127.0.0.1:8000/api/currencies <br>
 search by name example
 http://127.0.0.1:8000/api/country/Antarctica <br>
 http://127.0.0.1:8000/api/country/In <br>
+http://127.0.0.1:8000/api/currency/pou <br>
 get all the list without authentication
 
 
