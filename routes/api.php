@@ -19,8 +19,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('countries', [\App\Http\Controllers\Api\Countries::class, 'index']);
-Route::get('currencies', [\App\Http\Controllers\Api\Countries::class, 'index']);
+Route::get('currencies', [\App\Http\Controllers\Api\Currencies::class, 'index']);
 
 Route::get('country/{param}', [\App\Http\Controllers\Api\Countries::class, 'searchByName']);
-Route::get('currency/{param}', [\App\Http\Controllers\Api\Countries::class, 'searchByName']);
+Route::get('currency/{param}', [\App\Http\Controllers\Api\Currencies::class, 'searchByName']);
 
