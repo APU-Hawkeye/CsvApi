@@ -19,3 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('countries', [\App\Http\Controllers\Api\Countries::class, 'index']);
+
+Route::get('view', [\App\Http\Controllers\Api\Countries::class, 'view']);
+
+Route::get('country/{param}', [\App\Http\Controllers\Api\Countries::class, 'searchByName']);
